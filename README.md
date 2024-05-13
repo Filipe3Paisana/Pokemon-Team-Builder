@@ -24,6 +24,3 @@
 
 We welcome contributions to the Pokemon-Team-Builder! If you have suggestions for improvements or new features, feel free to fork this repository and submit a pull request. Please ensure your commits are well-documented.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
