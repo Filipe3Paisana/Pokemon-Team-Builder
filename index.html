@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipa Pokémon</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div>
+  <label for="pokemon1">Pokemon 1:</label>
+  <input type="text" id="pokemon1" class="pokemon-input">
+</div>
+<div>
+  <label for="pokemon2">Pokemon 2:</label>
+  <input type="text" id="pokemon2" class="pokemon-input">
+</div>
+<div>
+  <label for="pokemon3">Pokemon 3:</label>
+  <input type="text" id="pokemon3" class="pokemon-input">
+</div>
+
+<button onclick="getPokemonTeam()">Obter Fraquezas e Resistências</button>
+
+<div id="results">
+    <h2>Fraquezas da Equipe:</h2>
+    <ul id="weaknesses-list"></ul>
+    <h2>Pontos Fortes da Equipe:</h2>
+    <ul id="resistances-list"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
